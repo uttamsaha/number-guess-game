@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="https://images-na.ssl-images-amazon.com/images/I/61Bj98kWg-L.png" type="image/png">
+    <title>Guess Number Game</title>
+</head>
+
+<body>
+    <h2>Guess your <span>number...</span></h2>
+    <p id="game-title">Guess a random number between 1 and 3</p>
+    <div class="guess-game">
+        <div class="items">
+
+            <div>
+                <input id="input-value" type="text" placeholder="Enter your guess number">
+                <button id="guess-btn">Guess</button>
+                <div class="result">
+                    <p>Your guess number: <span id="guess-number"> 0</span></p>
+                    <p>Random guess number: <span id="random-number"> 0</span></p>
+                </div>
+                <div class="result-msg">
+                    <p id="success">Number matched! Keep it up!</p>
+                    <p id="fail">Number doesn't match! Try agin.....</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>

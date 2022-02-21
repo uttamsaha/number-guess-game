@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@400;500;600;800&family=Roboto:wght@400;500&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  /* font-family: 'Raleway', sans-serif; */
+  /* font-family: 'Montserrat', sans-serif; */
+  font-family: "Roboto", sans-serif;
+}
+body{
+    background-color: rgba(241, 140, 140, 0.411);
+}
+img{
+    opacity: 0;
+}
+h2 {
+  text-align: center;
+  color: blue;
+  margin-top: 150px;
+  margin-bottom: 20px;
+  font-size: 35px;
+
+}
+.guess-game {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.items {
+  /* border: 1px solid tomato; */
+  width: 950px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  /* padding:50px 200px; */
+}
+#game-title {
+  font-family: "Raleway", sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 20px;
+  color: tomato;
+}
+input {
+  width: 400px;
+  height: 45px;
+  outline: none;
+  border: 1px solid gray;
+  padding-left: 10px;
+  border-radius: 50px;
+  background: rgba(230, 224, 173, 0.849);
+  color: blue;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  margin-bottom: 35px;
+  font-size: 20px;
+}
+button {
+  height: 46px;
+  width: 120px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  color: white;
+  background: blue;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 50px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+input:focus {
+  background: rgba(255, 208, 0, 0.335);
+}
+input::placeholder {
+  color: rgb(255, 0, 234);
+  font-size: 18px;
+}
+.result {
+  font-size: 22px;
+  color: blue;
+  /* font-family: 'Raleway', sans-serif; */
+
+  font-family: "Montserrat", sans-serif;
+  font-weight: 550;
+  display: flex;
+  justify-content: space-between;
+}
+.result-msg {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* display: none; */
+}
+span{
+    color: rgb(255, 115, 0);
+}
+#success {
+  margin-right: 80px;
+  margin-top: 50px;
+  background: rgb(14, 226, 14);
+  padding: 12px 25px;
+  outline: 1px solid lightgray;
+  border-radius: 50px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  display: none;
+}
+#fail {
+  margin-right: 80px;
+  margin-top: 50px;
+  background: rgb(226, 14, 14);
+  padding: 12px 25px;
+  outline: 2px solid lightgray;
+  border-radius: 50px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  color: white;
+  display: none;
+}
