@@ -116,3 +116,27 @@ span{
   color: white;
   display: none;
 }
+
+@media (max-width:682px) {
+    input{
+        width: 300px;
+        margin-left: 40px;
+    }
+    button{
+        margin-left: 130px;
+        margin-top: -10px;
+    }
+    .result{
+        flex-direction: column;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .result-msg{
+        margin-left: 60px;
+    }
+    #guess{
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+    
+}

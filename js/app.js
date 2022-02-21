@@ -41,5 +41,5 @@ document.getElementById('guess-btn').addEventListener('click', function(){
         fail.style.display = 'block';
         success.style.display = 'none';
     }
-     setTimeout(function () { location.reload(true); }, 2000);
+     setTimeout(function () { location.reload(true); }, 2500);
 })
