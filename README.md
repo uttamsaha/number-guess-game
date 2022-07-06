@@ -1,4 +1,4 @@
-#Guess Your Number
+# Guess Your Number
 This is a simple game build with javascript program.
 
 ## Technologies that are used to build this project:
